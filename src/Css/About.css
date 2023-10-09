@@ -1,0 +1,94 @@
+.aboutImg,
+.aboutImg2 {
+  width: 100%;
+  object-fit: contain;
+}
+.aboutImg img,
+.aboutImg2 img {
+  width: 100%;
+}
+.aboutImg2 img {
+  object-fit: cover;
+  height: 80vh;
+  object-position: center top;
+}
+.about .home-text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: justify;
+  color: #110f09;
+}
+.about .text-left {
+    color: #110F09;
+    text-align: justify;
+    font-family: Isidora Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+}
+.about .text-left .tiny{
+    font-size: 16px;
+    padding-top: -28px;
+}
+.text-left.signature{
+    color: #110F09;
+    font-family: 'Style Script', cursive;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+padding-bottom: 120px;
+}
+.about-heading {
+  color: #110f09;
+  text-align: center;
+  font-family: Isidora Sans;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 265;
+  line-height: 72px; /* 112.5% */
+  letter-spacing: -1.28px;
+  text-transform: capitalize;
+}
+.about-text{
+    color: #110F09;
+text-align: justify;
+font-family: Isidora Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+}
+.designer-tiny-heading{
+    color: #0D0B07;
+    text-align: center;
+    font-family: Isidora Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    letter-spacing: 7.68px;
+    text-transform: uppercase;
+}
+.designer-big-heading{
+    color: #110F09;
+text-align: center;
+font-family: Isidora Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; /* 120% */
+text-transform: capitalize;
+}
+.designer-intro{
+    color: #110F09;
+text-align: justify;
+font-family: Isidora Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}

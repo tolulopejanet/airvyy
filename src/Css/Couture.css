@@ -1,0 +1,65 @@
+.couture-heading {
+  text-align: center;
+font-family: Isidora Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 7.68px;
+text-transform: uppercase;
+color: #524A44;
+}
+.couture-text{
+  font-family: Isidora Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 200;
+line-height: 72px; /* 112.5% */
+letter-spacing: -1.28px;
+text-transform: capitalize;
+color: #060503;
+}
+.couture-tiny-text {
+  font-family: Isidora Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  letter-spacing: 0.4px;
+}
+.layer {
+  background-image: url("../Images/image1.png");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blur-box {
+  width: 596px;
+  padding: 56px 48px; 
+  border-radius: 24px;
+  background: lightgray 0% 0% / 100px 100px repeat, rgba(87, 87, 87, 0.16);
+  background-blend-mode: color-dodge, normal;
+  backdrop-filter: blur(20px);
+
+  
+}
+.blur-box .content {
+  color: #fffefb;
+  font-family: Isidora Sans;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 28px; 
+  letter-spacing: 0.4px;
+}
+.blur-box h1 {
+  color: #fdf0d5;
+}
+.layer button{
+  text-align: center;
+font-family: Isidora Sans;
+font-size: 18px;
+line-height: 30px; 
+text-transform: capitalize;
+color: #060503 !important;
+}
