@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "../Css/Home.css";
 import TransparentHeader from "./TransparentHeader";
 import image1 from "../Images/home6.png";
@@ -15,6 +15,15 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 
 const Home = () => {
+  const [hover, setHover] = useState(true);
+
+  const handleHover =()=>{
+    setHover(false);
+  }
+  const mouseLeave =()=>{
+    setHover(true);
+  }
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -60,18 +69,21 @@ const Home = () => {
             
           </div>
         </div>
-        <div className="column w-50">
-          <img src={image2} alt="" className="w-100" />
-          <div className="disappearing-text">
-            <div className="text">Accessories Gowns</div>
 
+
+        <div className="column w-50" onMouseLeave={mouseLeave} onMouseEnter={handleHover}>
+          <img src={image2} alt="" className="w-100" />
+          <div className={hover? "disappear":"disappearing-text"}>
+            <div className="text">Accessories Gowns</div>
             <div>
-              <a className="btnText" href="/bookappointment"><button className="button">Discover <ArrowOutwardIcon className="arrow" style={{ color: "#fff" }}/></button></a>
+              <button className="btn btn-light mt-3 border-dark mb-5 rounded-pill">Discover <ArrowOutwardIcon className="arrow" style={{ color: "#fff" }}/></button>
             </div>
             
           </div>
         </div>
       </div>
+
+
       <div className="container text-center mt-5">
         <h3 className="pt-5 text-uppercase couture-heading">Airvy</h3>
         <h3 className="pt-1 home-heading pb-5">Recent Collection</h3>

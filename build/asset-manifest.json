@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/airvy.git/static/css/main.05c94a08.css",
-    "main.js": "/airvy.git/static/js/main.08f4817b.js",
+    "main.css": "/airvy.git/static/css/main.1d6407eb.css",
+    "main.js": "/airvy.git/static/js/main.dc42d25f.js",
     "static/media/home.png": "/airvy.git/static/media/home.91e8c0f379acf1be9ce7.png",
     "static/media/about.png": "/airvy.git/static/media/about.4d79cf9f480809711532.png",
     "static/media/airvy.png": "/airvy.git/static/media/airvy.d11b7650864ab6bf110a.png",
@@ -17,11 +17,11 @@
     "static/media/revicons.ttf": "/airvy.git/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/airvy.git/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/airvy.git/index.html",
-    "main.05c94a08.css.map": "/airvy.git/static/css/main.05c94a08.css.map",
-    "main.08f4817b.js.map": "/airvy.git/static/js/main.08f4817b.js.map"
+    "main.1d6407eb.css.map": "/airvy.git/static/css/main.1d6407eb.css.map",
+    "main.dc42d25f.js.map": "/airvy.git/static/js/main.dc42d25f.js.map"
   },
   "entrypoints": [
-    "static/css/main.05c94a08.css",
-    "static/js/main.08f4817b.js"
+    "static/css/main.1d6407eb.css",
+    "static/js/main.dc42d25f.js"
   ]
 }

@@ -8,13 +8,15 @@ import Contact from './Component/Contact';
 import Error from './Component/Error';
 import Footer from "./Component/Footer";
 import BookAppointment from "./Component/BookAppointment";
+import ScrollToTop from "./Component/ScrollToTop";
 // import TransparentHeader from "./Component/TransparentHeader";
 
 
 const App=()=>{
   return(
     <>
-      <Routes>
+    <ScrollToTop/>
+      <Routes>      
           <Route exact path="/" Component={Home}/>
           <Route path="/about" Component={About}/>
           <Route path="/couture" Component={Couture}/>

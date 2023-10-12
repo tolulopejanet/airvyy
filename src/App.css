@@ -15,3 +15,26 @@
 .consult-btn{
   margin-bottom: 100px;
 }
+.navbar-menu-container {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .navbar-links-container a {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  .primary-button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  .nav-logo-container {
+    max-width: 140px;
+  }
+  .navbar-links-container {
+    display: none;
+  }
+  .navbar-menu-container {
+    display: flex;
+  }
+}
