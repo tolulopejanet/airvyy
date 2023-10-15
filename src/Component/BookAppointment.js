@@ -27,7 +27,7 @@ const BookAppointment = () => {
             and memorable.
           </p>
         </div>
-
+ 
         <div className="d-flex justify-content-around tabs">
           <div className="tab" onClick={()=>updateToggle(1)}>
             Bridal Consultant
@@ -37,7 +37,7 @@ const BookAppointment = () => {
           </div>
         </div>
       </div>
-
+ 
       <div className="container text-center mt-5 ">
       <div className={toggle === 1 ? "show-content" : "content"}>
         <h3 className="pt-1 home-heading">

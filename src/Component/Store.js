@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Data from "./Data";
 import Header from "./Header";
 import "../Css/Store.css";
@@ -11,27 +11,47 @@ import image6 from "../Images/home8.png";
 
 const Store = () => {
   // console.log(Data);
+  const [toggle, setToggle] = useState(1);
+  function updateToggle(id){
+    setToggle(id)
+  }
   return (
     <>
       <Header />
 
       <div className="subNav">
         <div className="d-flex justify-content-around m-auto storeNav">
-          <div className="list">
-            <a href="">Timeless Romance</a>
+          <div className="tab list" onClick={()=>updateToggle(1)}>
+            Timeless Romance
           </div>
-          <div className="list">
-            <a href="">Celestial Couture</a>
+          <div className=" tab list" onClick={()=>updateToggle(2)}>
+            Celestial Couture
           </div>
-          <div className="list">
-            <a href="">Celestial Couture</a>
+          <div className="tab list" onClick={()=>updateToggle(3)}>
+          Celestial Couture
           </div>
         </div>
       </div>
       
       <div className=" mt-5 row gallery">
         {Data.map((data) => (
-          <div className="imgContainer col-4">
+          <div className={toggle === 1 ?"imgContainer col-4": "content" }>
+            <img src={data.image} alt="" className="" />
+          </div>
+        ))}
+      </div>
+
+      <div className="row gallery">
+        {Data.map((data) => (
+          <div className={toggle === 2 ? "imgContainerr col-4": "content" }>
+            <img src={data.image} alt="" className="" />
+          </div>
+        ))}
+      </div>
+
+      <div className="row gallery">
+        {Data.map((data) => (
+          <div className={toggle === 3 ? "imgContainerrr col-4": "content" }>
             <img src={data.image} alt="" className="" />
           </div>
         ))}

@@ -15,17 +15,14 @@
   width: 70%;
   align-items: center !important;
 }
-.storeNav .list a {
+.storeNav .list{
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   color: #060503;
   text-decoration: none;
-}
-.storeNav .list a:hover {
-  border-bottom: 5px solid #060503;
-  padding-bottom: 1.4rem;
+  cursor: pointer;
 }
 .store .tiny-heading {
   color: #524a44;
@@ -76,6 +73,12 @@
 }
 .imgContainer2 {
   width: 25%;
+}
+.imgContainerr{
+  border: 2px solid red;
+}
+.imgContainerrr{
+  border: 2px solid yellow;
 }
 .imgContainer2 .img {
   width: 100%;

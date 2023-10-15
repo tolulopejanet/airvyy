@@ -44,7 +44,7 @@ color: #060503;
 
   
 }
-.blur-box .content {
+.blur-box .contentt {
   color: #fffefb;
   font-family: Isidora Sans;
   font-size: 1rem;
@@ -53,7 +53,13 @@ color: #060503;
   letter-spacing: 0.4px;
 }
 .blur-box h1 {
-  color: #fdf0d5;
+  color: #FDF0D5;
+font-family: Isidora Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 200;
+line-height: 48px; 
+text-transform: capitalize;
 }
 .layer button{
   text-align: center;
