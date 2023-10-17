@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../Images/logo.png";
+import Translogo from "../Images/transLogo.png";
 import { NavLink } from "react-router-dom";
 import "../Css/TransparentHeader.css";
 import "../Fonts/Isidora/IsidoraSans-Regular.ttf";
@@ -25,25 +25,27 @@ const TransparentHeader = () => {
     } else {
       setHeader(false);
     }
-    // console.log(window.scrollY);
   };
-
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
+      path: '/',
       text: "Home",
       icon: <HomeIcon />,
     },
     {
-      text: "Product",
-      icon: <InfoIcon />,
-    },
-    {
-      text: "Category",
+      path: '/about',
+      text: "About",
       icon: <CommentRoundedIcon />,
     },
     {
-      text: "Utility",
+      path: '/couture',
+      text: "Couture Process",
+      icon: <InfoIcon />,
+    },
+    {
+      path: '/store',
+      text: "Store",
       icon: <PhoneRoundedIcon />,
     },
   ];
@@ -53,13 +55,13 @@ const TransparentHeader = () => {
       <header
         className={header ? "transparentHeader active" : "transparentHeader"}
       >
-        <div class="navbar navbar-expand-lg d-flex justify-content-around">
-          <div className="logo">
-            <img src={logo} alt="aivys-logo" />
+        <div class="navbar navbar-expand-lg navbar-menu-container d-flex justify-content-around">
+          <div className="logo nav-logo-container">
+            <img src={Translogo} alt="aivys-logo" />
           </div>
-
+        
           <nav>
-            <div className="lists">
+            <div className="lists navbar-links-container">
               <NavLink
                 exact
                 to="/"
@@ -106,10 +108,12 @@ const TransparentHeader = () => {
               </button>
             </a>
           </div>
-        </div>
+
+          
+        
 
         <div className="navbar-menu-container">
-          <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
+          <HiOutlineBars3 onClick={() => setOpenMenu(true)} style={{ color: '#fff', fontSize: '35px' }}/>
         </div>
         <Drawer
           open={openMenu}
@@ -135,6 +139,7 @@ const TransparentHeader = () => {
             <Divider />
           </Box>
         </Drawer>
+        </div>
       </header>
     </>
   );

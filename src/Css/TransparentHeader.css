@@ -1,5 +1,5 @@
 
-header {
+Navbar {
   width: 100%;
 }
 .transparentHeader{
@@ -14,7 +14,8 @@ header {
 }
 .transparentHeader.active{
   /* background-color: #fff !important; */
-  display: none;
+  border-bottom: 1px solid red;
+  /* display: none; */
 }
 .listItem2 {
   color: #fff !important;
@@ -35,6 +36,32 @@ header {
   box-shadow: 0px 1px 2px 0px rgba(16, 15, 20, 0.05);
   color: #fffefb;
   text-decoration: none;
+}
+.navbar-menu-container {
+  display: none;
+}
+HiOutlineBars3{
+  color: #fff;
+}
+@media (max-width: 1000px) {
+  .navbar-links-container a {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  .primary-button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 815px) {
+  .nav-logo-container {
+    max-width: 140px;
+  }
+  .navbar-links-container, .transparentheader-button{
+    display: none;
+  }
+  .navbar-menu-container {
+    display: flex;
+  }
 }
 
 
