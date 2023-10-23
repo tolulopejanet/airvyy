@@ -12,6 +12,7 @@ import airvy from "../Images/airvy.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import BackToTopButton from "./BackToTopButton";
 
 const Home = () => {
   const [hover, setHover] = useState(true);
@@ -54,10 +55,10 @@ const Home = () => {
     <>
       <TransparentHeader />
       <div className="video"></div>
-      <div className="container text-center mt-5">
-        <h3 className="pt-5 text-uppercase couture-heading">Airvy</h3>
-        <h3 className="pt-1 home-heading">The Collection</h3>
-        <p className="home-text pb-5">
+      <div className="container mt-5">
+        <h3 className="pt-5 text-uppercase couture-heading text-center">Airvy</h3>
+        <h3 className="pt-1 home-heading text-center">The Collection</h3>
+        <p className="home-text text-center pb-5">
           Making your wedding dress should be as unique as your love story. Each
           dress is designed to make you feel like the most beautiful bride on
           your special day. 
@@ -86,7 +87,7 @@ const Home = () => {
         >
           <img src={image2} alt="" className="w-100" />
           <div className={hover2 ? "disappear" : "disappearing-text"}>
-            <div className="text">Accessories Gowns</div>
+            <div className="text">Accessories</div>
             <div className="discover-btn">
               <button className="btn2">
                 Discover<ArrowOutwardIcon className="arrow" style={{ color: "#060503" }} />
@@ -95,13 +96,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container text-center mt-5">
-        <h3 className="pt-5 text-uppercase couture-heading">Airvy</h3>
+      <div className="container text-center mt-5 collection">
+        <h3 className="pt-5 text-uppercase home-tiny-heading ">Airvy</h3>
         <h3 className="pt-1 home-heading pb-5">Recent Collection</h3>
       </div>
       <div className="roww">
         <div className="column2">
-          <img src={image4} alt="" className="w-100" />
+          <img src={image4} alt="" className="w-100 one" />
         </div>
         <div className="column2">
           <img src={image5} alt="" className="w-100" />
@@ -110,7 +111,7 @@ const Home = () => {
           <img src={image6} alt="" className="w-100" />
         </div>
       </div>
-      <div className="roww">
+      <div className="roww roww2">
         <div className="column2">
           <img src={image6} alt="" className="w-100" />
         </div>
@@ -129,12 +130,12 @@ const Home = () => {
           Design Your Dream Dress with a Designer, Chat with our Consultant for
           Free!
         </p>
-        <button className="btn btn-light mt-3 border-dark mb-5 rounded-pill">
+        <button className="btn btn-light mt-2 border-dark mb-5 rounded-pill">
           Book a Consultation
         </button>
       </div>
       <div className="image-overlay position-relative">
-        <div className="overlay position-absolute bottom-0 end-0">
+        <div className="overlay desktop-view position-absolute bottom-0 end-0">
           <h3 className="pt-5 text-uppercase overlay-heading">FOUNDER</h3>
           <h3 className="pt-1 overlay-heading2">The designer</h3>
           <p className="overlay-text text-center">
@@ -147,11 +148,28 @@ const Home = () => {
             <ArrowOutwardIcon className="arrow" style={{ color: "#E7E7E6" }} />
           </button>
         </div>
+
+        <div className="overlay mobile-view position-absolute bottom-0 end-0">
+          <h3 className="pt-5 text-uppercase overlay-heading ms-4">FOUNDER</h3>
+          <div className="d-flex justify-content-between align-items-center">
+          <h3 className="pt-1 ms-4 overlay-heading2">The designer</h3>
+
+          <button className="btn">
+            Meet Evi
+          </button>
+          
+          </div>
+
+          
+        </div>
       </div>
+
+      
       <div className="container text-center mt-5 mb-5">
         <h3 className="pt-5 text-uppercase couture-heading">Feedback</h3>
         <h3 className="pt-1 home-heading pb-4">Love letters from brides</h3>
       </div>
+      
       <Carousel responsive={responsive} className="carousel mt-5">
         <div className="border-light item text-center p-4 d-flex justify-content-center align-items-center flex-column ">
           <p>
@@ -215,8 +233,12 @@ const Home = () => {
           <img src={airvy} alt="" className="w-25 rounded-circle" />
           <p className="pt-4">Candice Wu</p>
           <p className="date">May, 2023</p>
+          
         </div>
+        
       </Carousel>
+      <BackToTopButton/>
+      
       ;
     </>
   );

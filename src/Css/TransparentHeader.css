@@ -12,10 +12,8 @@ Navbar {
   z-index: 99;
   padding: 0px 32px;
 }
-.transparentHeader.active{
-  /* background-color: #fff !important; */
-  border-bottom: 1px solid red;
-  /* display: none; */
+.activee{
+  border-bottom: 0.1px solid #000;
 }
 .listItem2 {
   color: #fff !important;
@@ -37,12 +35,20 @@ Navbar {
   color: #fffefb;
   text-decoration: none;
 }
+.responsive-btn{
+  background-color: #575757;
+  border-radius: 8px;
+  padding: 10px 18px ;
+  border: none ;
+  outline: none;
+  box-shadow: 0px 1px 2px 0px rgba(16, 15, 20, 0.05);
+  color: #fffefb;
+  text-decoration: none;
+}
 .navbar-menu-container {
   display: none;
 }
-HiOutlineBars3{
-  color: #fff;
-}
+
 @media (max-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Data from "./Data";
 import Header from "./Header";
 import "../Css/Store.css";
@@ -12,8 +12,8 @@ import image6 from "../Images/home8.png";
 const Store = () => {
   // console.log(Data);
   const [toggle, setToggle] = useState(1);
-  function updateToggle(id){
-    setToggle(id)
+  function updateToggle(id) {
+    setToggle(id);
   }
   return (
     <>
@@ -21,21 +21,23 @@ const Store = () => {
 
       <div className="subNav">
         <div className="d-flex justify-content-around m-auto storeNav">
-          <div className="tab list" onClick={()=>updateToggle(1)}>
+          <div className="tab list" onClick={() => updateToggle(1)}>
             Timeless Romance
           </div>
-          <div className=" tab list" onClick={()=>updateToggle(2)}>
+          <div className=" tab list" onClick={() => updateToggle(2)}>
             Celestial Couture
           </div>
-          <div className="tab list" onClick={()=>updateToggle(3)}>
-          Celestial Couture
+          <div className="tab list" onClick={() => updateToggle(3)}>
+            Celestial Couture
           </div>
         </div>
       </div>
-      
+
       <div className=" mt-5 row gallery">
         {Data.map((data) => (
-          <div className={toggle === 1 ?"imgContainer col-4": "content" }>
+          <div
+            className={toggle === 1 ? "imgContainer col-md-4 col-6" : "content"}
+          >
             <img src={data.image} alt="" className="" />
           </div>
         ))}
@@ -43,7 +45,9 @@ const Store = () => {
 
       <div className="row gallery">
         {Data.map((data) => (
-          <div className={toggle === 2 ? "imgContainerr col-4": "content" }>
+          <div
+            className={toggle === 2 ? "imgContainer col-md-4 col-6" : "content"}
+          >
             <img src={data.image} alt="" className="" />
           </div>
         ))}
@@ -51,7 +55,9 @@ const Store = () => {
 
       <div className="row gallery">
         {Data.map((data) => (
-          <div className={toggle === 3 ? "imgContainerrr col-4": "content" }>
+          <div
+            className={toggle === 3 ? "imgContainer col-md-4 col-6" : "content"}
+          >
             <img src={data.image} alt="" className="" />
           </div>
         ))}
@@ -72,32 +78,32 @@ const Store = () => {
             src={image1}
             alt=""
             data-bs-toggle="modal"
-            className="img cursur-pointer"
+            className="img cursor-pointer"
             data-bs-target="#image"
           />
           <img
             src={image2}
             alt=""
             data-bs-toggle="modal"
-            className="img cursur-pointer"
+            className="img cursor-pointer"
             data-bs-target="#image2"
           />
           <img
             src={image2}
             alt=""
             data-bs-toggle="modal"
-            className="img cursur-pointer"
+            className="img cursor-pointer"
             data-bs-target="#image2"
           />
           <img
             src={image3}
             alt=""
             data-bs-toggle="modal"
-            className="img cursur-pointer"
+            className="img cursor-pointer"
             data-bs-target="#image3"
           />
 
-<div className="modal fade" id="image" tabIndex="-1" aria-hidden>
+          <div className="modal fade" id="image" tabIndex="-1" aria-hidden>
             <div className="modal-dialog">
               <div className="modal-content">
                 <div className="modal-body">
@@ -146,21 +152,34 @@ const Store = () => {
           </div>
         </div>
         <div className="imgContainer2 d-flex">
-          <img src={image4} alt="" data-bs-toggle="modal"
-            className="img cursur-pointer"
-            data-bs-target="#image4" />
-          <img src={image5} alt="" data-bs-toggle="modal"
-            className="img cursur-pointer"
-            data-bs-target="#image5" />
-          <img src={image5} alt="" data-bs-toggle="modal"
-            className="img cursur-pointer"
-            data-bs-target="#image5" />
-          <img src={image6} alt="" data-bs-toggle="modal"
-            className="img cursur-pointer"
-            data-bs-target="#image6" />
-
-
-
+          <img
+            src={image4}
+            alt=""
+            data-bs-toggle="modal"
+            className="img cursor-pointer"
+            data-bs-target="#image4"
+          />
+          <img
+            src={image5}
+            alt=""
+            data-bs-toggle="modal"
+            className="img cursor-pointer"
+            data-bs-target="#image5"
+          />
+          <img
+            src={image5}
+            alt=""
+            data-bs-toggle="modal"
+            className="img cursor-pointer"
+            data-bs-target="#image5"
+          />
+          <img
+            src={image6}
+            alt=""
+            data-bs-toggle="modal"
+            className="img cursor-pointer"
+            data-bs-target="#image6"
+          />
 
           <div className="modal fade" id="image4" tabIndex="-1" aria-hidden>
             <div className="modal-dialog">

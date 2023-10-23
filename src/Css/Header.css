@@ -27,4 +27,42 @@ header{
   color: #fffefb;
   text-decoration: none;
 }
+.activee{
+  border-bottom: 0.1px solid #000;
+}
+.responsive-btn{
+  background-color: #575757;
+  border-radius: 8px;
+  padding: 10px 18px ;
+  border: none ;
+  outline: none;
+  box-shadow: 0px 1px 2px 0px rgba(16, 15, 20, 0.05);
+  color: #fffefb;
+  text-decoration: none;
+}
+.navbar-menu-container {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .navbar-links-container a {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  .primary-button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 815px) {
+  .nav-logo-container {
+    max-width: 140px;
+  }
+  .navbar-links-container, .header-button{
+    display: none;
+  }
+  .navbar-menu-container {
+    display: flex;
+  }
+}
+
+
 

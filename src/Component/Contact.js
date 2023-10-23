@@ -27,9 +27,9 @@ const Contact = () => {
       </div>
 
       <div className="container">
-        <div className="">
-          <div className="d-flex justify-content-between align-items-center">
-            <button className="btn btn-light mt-3 border-dark mb-5 rounded-pill px-5">
+        <div className="contact">
+          <div className="d-flex justify-content-between align-items-center contact">
+            <button className=" button btn btn-light mt-3 border-dark mb-5 rounded-pill px-5">
             <FacebookRoundedIcon/>
             Message via Facebook
             </button>

@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/airvy.git/static/css/main.1d6407eb.css",
-    "main.js": "/airvy.git/static/js/main.dc42d25f.js",
-    "static/media/home.png": "/airvy.git/static/media/home.91e8c0f379acf1be9ce7.png",
-    "static/media/about.png": "/airvy.git/static/media/about.4d79cf9f480809711532.png",
-    "static/media/airvy.png": "/airvy.git/static/media/airvy.d11b7650864ab6bf110a.png",
-    "static/media/image1.png": "/airvy.git/static/media/image1.1a4a57eef6ee8e3e9565.png",
-    "static/media/home7.png": "/airvy.git/static/media/home7.09298efa8ff67e181f3d.png",
-    "static/media/home4.png": "/airvy.git/static/media/home4.db7be7fad5bc95264ce7.png",
-    "static/media/home6.png": "/airvy.git/static/media/home6.a40e989f09615d7dbcdd.png",
-    "static/media/home8.png": "/airvy.git/static/media/home8.c72e7b873baacf998f92.png",
-    "static/media/home5.png": "/airvy.git/static/media/home5.c55f8b78b755418bad89.png",
-    "static/media/IsidoraSans-Regular.ttf": "/airvy.git/static/media/IsidoraSans-Regular.d7ad601412db7c6d6008.ttf",
-    "static/media/logo.png": "/airvy.git/static/media/logo.d04973e5f28b97ca5df4.png",
-    "static/media/revicons.eot": "/airvy.git/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/airvy.git/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/airvy.git/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/airvy.git/index.html",
-    "main.1d6407eb.css.map": "/airvy.git/static/css/main.1d6407eb.css.map",
-    "main.dc42d25f.js.map": "/airvy.git/static/js/main.dc42d25f.js.map"
+    "main.css": "/static/css/main.11ec273a.css",
+    "main.js": "/static/js/main.a2b7a332.js",
+    "static/media/home.png": "/static/media/home.91e8c0f379acf1be9ce7.png",
+    "static/media/about.png": "/static/media/about.4d79cf9f480809711532.png",
+    "static/media/airvy.png": "/static/media/airvy.d11b7650864ab6bf110a.png",
+    "static/media/image1.png": "/static/media/image1.1a4a57eef6ee8e3e9565.png",
+    "static/media/home7.png": "/static/media/home7.09298efa8ff67e181f3d.png",
+    "static/media/home4.png": "/static/media/home4.db7be7fad5bc95264ce7.png",
+    "static/media/home6.png": "/static/media/home6.a40e989f09615d7dbcdd.png",
+    "static/media/home8.png": "/static/media/home8.c72e7b873baacf998f92.png",
+    "static/media/home5.png": "/static/media/home5.c55f8b78b755418bad89.png",
+    "static/media/IsidoraSans-Regular.ttf": "/static/media/IsidoraSans-Regular.d7ad601412db7c6d6008.ttf",
+    "static/media/logo.png": "/static/media/logo.d04973e5f28b97ca5df4.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.11ec273a.css.map": "/static/css/main.11ec273a.css.map",
+    "main.a2b7a332.js.map": "/static/js/main.a2b7a332.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d6407eb.css",
-    "static/js/main.dc42d25f.js"
+    "static/css/main.11ec273a.css",
+    "static/js/main.a2b7a332.js"
   ]
 }

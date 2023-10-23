@@ -1,5 +1,5 @@
 .footer{
-    background-color: #060503;
+    background-color: hsl(40, 33%, 2%);
     margin-top: -30px;
 }
 .foot{
@@ -8,6 +8,36 @@
 .list .listItem{
     color: #FFFEFB !important;
 }
+.borderBottom{
+    border: 0.2px solid rgba(71, 84, 103,0.7);
+}
 .copyright p{
     color: #98A2B3;
+}
+.black-bg{
+    background-color: #000;
+}
+.footer-tiny-text{
+font-size: 10px;
+font-style: normal;
+line-height: 16px;
+letter-spacing: 4.8px;
+text-transform: uppercase;
+color: rgba(231, 231, 230, 0.7);
+}
+.footer-normal-text{
+font-size: 14px;
+line-height: 24px; 
+color: rgba(255, 254, 251,0.7);
+}
+.mobile-view{
+    display: none;
+}
+@media (max-width: 815px) {
+    .mobile-view{
+        display: block;
+    }
+    .desktop-view{
+        display: none;
+    }
 }

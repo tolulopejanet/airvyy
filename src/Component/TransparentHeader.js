@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Translogo from "../Images/transLogo.png";
+import Logo from "../Images/logo.png"
+// import Translogo from "../Images/transLogo.png";
 import { NavLink } from "react-router-dom";
 import "../Css/TransparentHeader.css";
 import "../Fonts/Isidora/IsidoraSans-Regular.ttf";
@@ -18,14 +19,18 @@ import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 
 const TransparentHeader = () => {
-  const [header, setHeader] = useState(false);
-  const changeBackground = () => {
-    if (window.scrollY >= 470) {
-      setHeader(true);
-    } else {
-      setHeader(false);
-    }
-  };
+  // const [header, setHeader] = useState(false);
+  // const changeBackground = () => {
+  //   if (window.scrollY <= 580) {
+  //     setHeader(true);
+  //   }
+  //   else  {
+  //     setHeader(false);
+  //   }
+  
+  // };
+  // window.addEventListener("scroll", changeBackground);
+
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
@@ -46,21 +51,28 @@ const TransparentHeader = () => {
     {
       path: '/store',
       text: "Store",
+      icon: <CommentRoundedIcon />,
+    },
+    {
+      path: '/contact',
+      text: "Contact",
       icon: <PhoneRoundedIcon />,
     },
   ];
-  window.addEventListener("scroll", changeBackground);
+  
   return (
     <>
+
       <header
-        className={header ? "transparentHeader active" : "transparentHeader"}
+        className="transparentHeader activee"
       >
         <div class="navbar navbar-expand-lg navbar-menu-container d-flex justify-content-around">
           <div className="logo nav-logo-container">
-            <img src={Translogo} alt="aivys-logo" />
+            <img src={Logo} alt="aivys-logo" />
           </div>
         
           <nav>
+          
             <div className="lists navbar-links-container">
               <NavLink
                 exact
@@ -113,7 +125,7 @@ const TransparentHeader = () => {
         
 
         <div className="navbar-menu-container">
-          <HiOutlineBars3 onClick={() => setOpenMenu(true)} style={{ color: '#fff', fontSize: '35px' }}/>
+          <HiOutlineBars3 onClick={() => setOpenMenu(true)} style={{ color: '#000', fontSize: '35px' }}/>
         </div>
         <Drawer
           open={openMenu}
@@ -129,15 +141,25 @@ const TransparentHeader = () => {
             <List>
               {menuOptions.map((item) => (
                 <ListItem key={item.text} disablePadding>
-                  <ListItemButton>
+                  <ListItemButton to={item.path}>
                     <ListItemIcon>{item.icon}</ListItemIcon>
                     <ListItemText primary={item.text} />
                   </ListItemButton>
+                  
                 </ListItem>
+                
               ))}
+              <a className="btnText" href="/bookappointment">
+              <button className="responsive-btn ms-4 mt-3">
+                Book a Consultation
+              </button>
+              </a>
             </List>
+
+           
             <Divider />
           </Box>
+          
         </Drawer>
         </div>
       </header>

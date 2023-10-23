@@ -60,6 +60,7 @@
 }
 .imgContainer img {
   width: 100%;
+  
 }
 .row {
   --bs-gutter-x: 0 !important ;
@@ -74,17 +75,24 @@
 .imgContainer2 {
   width: 25%;
 }
-.imgContainerr{
-  border: 2px solid red;
-}
-.imgContainerrr{
-  border: 2px solid yellow;
-}
 .imgContainer2 .img {
   width: 100%;
+  cursor: pointer;
   object-fit: contain;
 }
 .modal {
   --bs-modal-padding: 0 !important;
   --bs-modal-padding-bottom: 1rem !important;
 }
+@media (max-width: 815px) {
+  .storeNav {
+    width: 100%;
+    align-items: center !important;
+  }
+  .storeNav .list{
+font-size: 13px;
+font-weight: 400;
+font-weight: bolder;
+  }
+}
+

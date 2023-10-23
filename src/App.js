@@ -25,6 +25,8 @@ const App=()=>{
           <Route path="*" Component={Error}/>
           <Route path="/bookappointment" Component={BookAppointment}></Route>
       </Routes>
+
+      
       <Footer/>
     </>
   )

@@ -1,9 +1,11 @@
-.aboutImg,
+.aboutImg
 .aboutImg2 {
   width: 100%;
   object-fit: contain;
 }
-.aboutImg img,
+.aboutImgRes{
+  display: none;
+}
 .aboutImg2 img {
   width: 100%;
 }
@@ -60,7 +62,7 @@ font-family: Isidora Sans;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; /* 133.333% */
+line-height: 32px; 
 }
 .designer-tiny-heading{
     color: #0D0B07;
@@ -91,4 +93,54 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px;
+}
+@media (max-width: 815px) {
+.aboutImg{
+  display: none;
+}
+.aboutImgRes{
+  display: block;
+}
+.about-text{
+  font-family: Isidora Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.about-heading {
+  font-size: 40px;
+font-style: normal;
+font-weight: 265;
+line-height: 48px; 
+padding-top: 20px !important;
+}
+.designer-tiny-heading{
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 4.8px;
+  padding-top: 20px !important;
+  }
+  .designer-big-heading{
+    font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 32px;
+  padding-bottom: 15px !important;
+  }
+.designer-intro{
+  color: var(--foundation-brown-normal, #110F09);
+text-align: justify;
+font-family: Isidora Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin: auto;
+}
+.signature-one{
+  margin-top: 10px;
+}
 }
