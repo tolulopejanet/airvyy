@@ -8,7 +8,7 @@
   /* height: 72px; */
   background: #fff;
   backdrop-filter: blur(20px);
-  border: 0.2px solid #b5b5b3;
+  border-bottom: 0.2px solid #b5b5b3;
   padding: 1.2rem;
 }
 .storeNav {
@@ -58,28 +58,20 @@
 .gallery {
   width: 100%;
 }
-.imgContainer img {
+.gallery2{
+  max-width: 100%;
+
+}
+.gallery2 img{
+  object-fit: contain;
   width: 100%;
-  
 }
 .row {
   --bs-gutter-x: 0 !important ;
+  gap: 2;
 }
-.col-4 {
-  padding: 0 !important;
-  gap: 0 !important;
-}
-.gallery2 {
-  width: 100%;
-}
-.imgContainer2 {
-  width: 25%;
-}
-.imgContainer2 .img {
-  width: 100%;
-  cursor: pointer;
-  object-fit: contain;
-}
+
+
 .modal {
   --bs-modal-padding: 0 !important;
   --bs-modal-padding-bottom: 1rem !important;
@@ -94,5 +86,6 @@ font-size: 13px;
 font-weight: 400;
 font-weight: bolder;
   }
+  
 }
 

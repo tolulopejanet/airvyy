@@ -33,30 +33,29 @@ const Store = () => {
         </div>
       </div>
 
-      <div className=" mt-5 row gallery">
+      <div className=" mt-5 row row-cols-2 row-cols-sm-2 row-cols-md-3 gallery2">
         {Data.map((data) => (
           <div
-            className={toggle === 1 ? "imgContainer col-md-4 col-6" : "content"}
+            className={toggle === 1 ? "imgContainer col" : "content"}
           >
             <img src={data.image} alt="" className="" />
           </div>
         ))}
       </div>
 
-      <div className="row gallery">
+      <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3 gallery2">
         {Data.map((data) => (
           <div
-            className={toggle === 2 ? "imgContainer col-md-4 col-6" : "content"}
+            className={toggle === 2 ? "col" : "content"}
           >
             <img src={data.image} alt="" className="" />
           </div>
         ))}
       </div>
-
-      <div className="row gallery">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 gallery2">
         {Data.map((data) => (
           <div
-            className={toggle === 3 ? "imgContainer col-md-4 col-6" : "content"}
+            className={toggle === 3 ? "col" : "content"}
           >
             <img src={data.image} alt="" className="" />
           </div>
@@ -72,8 +71,9 @@ const Store = () => {
         </p>
       </div>
 
-      <div className=" mt-5 gallery2">
-        <div className="imgContainer2 d-flex">
+
+      <div className="row row-cols-2 row-cols-sm-2 row-cols-md-4 gallery2">
+        <div className="col">
           <img
             src={image1}
             alt=""
@@ -81,6 +81,8 @@ const Store = () => {
             className="img cursor-pointer"
             data-bs-target="#image"
           />
+          </div>
+          <div className="col">
           <img
             src={image2}
             alt=""
@@ -88,6 +90,8 @@ const Store = () => {
             className="img cursor-pointer"
             data-bs-target="#image2"
           />
+          </div>
+          <div className="col">
           <img
             src={image2}
             alt=""
@@ -95,6 +99,8 @@ const Store = () => {
             className="img cursor-pointer"
             data-bs-target="#image2"
           />
+          </div>
+          <div className="col">
           <img
             src={image3}
             alt=""
@@ -102,6 +108,7 @@ const Store = () => {
             className="img cursor-pointer"
             data-bs-target="#image3"
           />
+          </div>
 
           <div className="modal fade" id="image" tabIndex="-1" aria-hidden>
             <div className="modal-dialog">
@@ -150,8 +157,11 @@ const Store = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="imgContainer2 d-flex">
+        </div>  
+     
+        
+      <div className="row row-cols-2 row-cols-sm-2 row-cols-md-4 gallery2">
+      <div className="col">
           <img
             src={image4}
             alt=""
@@ -159,6 +169,8 @@ const Store = () => {
             className="img cursor-pointer"
             data-bs-target="#image4"
           />
+          </div>
+          <div className="col">
           <img
             src={image5}
             alt=""
@@ -166,6 +178,8 @@ const Store = () => {
             className="img cursor-pointer"
             data-bs-target="#image5"
           />
+          </div>
+          <div className="col">
           <img
             src={image5}
             alt=""
@@ -173,6 +187,8 @@ const Store = () => {
             className="img cursor-pointer"
             data-bs-target="#image5"
           />
+          </div>
+          <div className="col">
           <img
             src={image6}
             alt=""
@@ -180,6 +196,8 @@ const Store = () => {
             className="img cursor-pointer"
             data-bs-target="#image6"
           />
+          </div>
+          
 
           <div className="modal fade" id="image4" tabIndex="-1" aria-hidden>
             <div className="modal-dialog">
@@ -227,7 +245,7 @@ const Store = () => {
             </div>
           </div>
         </div>
-      </div>
+  
     </>
   );
 };
