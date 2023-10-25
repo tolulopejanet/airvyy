@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fe5a5a7.css",
-    "main.js": "/static/js/main.431dcb79.js",
+    "main.css": "/static/css/main.ca6eaa75.css",
+    "main.js": "/static/js/main.32c9976b.js",
     "static/media/home.png": "/static/media/home.91e8c0f379acf1be9ce7.png",
     "static/media/about.png": "/static/media/about.4d79cf9f480809711532.png",
     "static/media/airvy.png": "/static/media/airvy.d11b7650864ab6bf110a.png",
@@ -10,6 +10,8 @@
     "static/media/about-responsive.png": "/static/media/about-responsive.2b98a22dc07061ec7a66.png",
     "static/media/home4.png": "/static/media/home4.db7be7fad5bc95264ce7.png",
     "static/media/home6.png": "/static/media/home6.a40e989f09615d7dbcdd.png",
+    "static/media/sketch.png": "/static/media/sketch.f8c6eb5ceddc383bf7f3.png",
+    "static/media/consult.png": "/static/media/consult.fd82b051f9e54d332ddd.png",
     "static/media/home8.png": "/static/media/home8.c72e7b873baacf998f92.png",
     "static/media/home5.png": "/static/media/home5.c55f8b78b755418bad89.png",
     "static/media/IsidoraSans-Regular.ttf": "/static/media/IsidoraSans-Regular.d7ad601412db7c6d6008.ttf",
@@ -18,11 +20,11 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.6fe5a5a7.css.map": "/static/css/main.6fe5a5a7.css.map",
-    "main.431dcb79.js.map": "/static/js/main.431dcb79.js.map"
+    "main.ca6eaa75.css.map": "/static/css/main.ca6eaa75.css.map",
+    "main.32c9976b.js.map": "/static/js/main.32c9976b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fe5a5a7.css",
-    "static/js/main.431dcb79.js"
+    "static/css/main.ca6eaa75.css",
+    "static/js/main.32c9976b.js"
   ]
 }
