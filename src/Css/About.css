@@ -1,9 +1,8 @@
-.aboutImg
-.aboutImg2 {
+.aboutImg .aboutImg2 {
   width: 100%;
   object-fit: contain;
 }
-.aboutImgRes{
+.aboutImgRes {
   display: none;
 }
 .aboutImg2 img {
@@ -23,26 +22,26 @@
   color: #110f09;
 }
 .about .text-left {
-    color: #110F09;
-    text-align: justify;
-    font-family: Isidora Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 133.333% */
+  color: #110f09;
+  text-align: justify;
+  font-family: Isidora Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
 }
-.about .text-left .tiny{
-    font-size: 16px;
-    padding-top: -28px;
+.about .text-left .tiny {
+  font-size: 16px;
+  padding-top: -28px;
 }
-.text-left.signature{
-    color: #110F09;
-    font-family: 'Style Script', cursive;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: 40px;
-padding-bottom: 120px;
+.text-left.signature2 {
+  color: #110f09;
+  font-family: "Style Script", cursive;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  padding-bottom: 120px;
 }
 .about-heading {
   color: #110f09;
@@ -55,92 +54,92 @@ padding-bottom: 120px;
   letter-spacing: -1.28px;
   text-transform: capitalize;
 }
-.about-text{
-    color: #110F09;
-text-align: justify;
-font-family: Isidora Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
+.about-text {
+  color: #110f09;
+  text-align: justify;
+  font-family: Isidora Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
-.designer-tiny-heading{
-    color: #0D0B07;
-    text-align: center;
+.designer-tiny-heading {
+  color: #0d0b07;
+  text-align: center;
+  font-family: Isidora Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  letter-spacing: 7.68px;
+  text-transform: uppercase;
+}
+.designer-big-heading {
+  color: #110f09;
+  text-align: center;
+  font-family: Isidora Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+  text-transform: capitalize;
+}
+.designer-intro {
+  color: #110f09;
+  text-align: justify;
+  font-family: Isidora Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+@media (max-width: 815px) {
+  .aboutImg {
+    display: none;
+  }
+  .aboutImgRes {
+    display: block;
+  }
+  .about-text {
     font-family: Isidora Sans;
     font-size: 16px;
     font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .about-heading {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 265;
+    line-height: 48px;
+    padding-top: 20px !important;
+  }
+  .designer-tiny-heading {
+    font-size: 10px;
+    font-style: normal;
     font-weight: 300;
-    line-height: 24px; /* 150% */
-    letter-spacing: 7.68px;
-    text-transform: uppercase;
-}
-.designer-big-heading{
-    color: #110F09;
-text-align: center;
-font-family: Isidora Sans;
-font-size: 40px;
-font-style: normal;
-font-weight: 400;
-line-height: 48px; /* 120% */
-text-transform: capitalize;
-}
-.designer-intro{
-    color: #110F09;
-text-align: justify;
-font-family: Isidora Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-}
-@media (max-width: 815px) {
-.aboutImg{
-  display: none;
-}
-.aboutImgRes{
-  display: block;
-}
-.about-text{
-  font-family: Isidora Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-}
-.about-heading {
-  font-size: 40px;
-font-style: normal;
-font-weight: 265;
-line-height: 48px; 
-padding-top: 20px !important;
-}
-.designer-tiny-heading{
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 16px;
-  letter-spacing: 4.8px;
-  padding-top: 20px !important;
+    line-height: 16px;
+    letter-spacing: 4.8px;
+    padding-top: 20px !important;
   }
-  .designer-big-heading{
+  .designer-big-heading {
     font-size: 24px;
-  font-style: normal;
-  font-weight: 200;
-  line-height: 32px;
-  padding-bottom: 15px !important;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 32px;
+    padding-bottom: 15px !important;
   }
-.designer-intro{
-  color: var(--foundation-brown-normal, #110F09);
-text-align: justify;
-font-family: Isidora Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-margin: auto;
-}
-.signature-one{
-  margin-top: 10px;
-}
+  .designer-intro {
+    color:#110f09;
+    text-align: justify;
+    font-family: Isidora Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: auto;
+  }
+  .signature-one {
+    margin-top: 10px;
+  }
 }

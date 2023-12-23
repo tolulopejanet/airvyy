@@ -1,93 +1,60 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import "../Css/Header.css";
 import "../Css/Footer.css";
-import Translogo from "../Images/transLogo.png";
+import Logo from "../Images/logo.svg";
 import "../Fonts/Isidora/IsidoraSans-Regular.ttf";
-import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import BackToTopButton from "./BackToTopButton";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-
-
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const Footer = () => {
   return (
     <>
       <footer className="desktop-view">
-        <div className="text-center foot d-flex  align-items-center flex-column footer">
+        <div className="footer">
+          <div className="foot">
           <div className="logo">
-            <img src={Translogo} alt="aivys-logo" />
+            <img src={Logo} alt="aivys-logo" />
           </div>
 
-          <nav>
-            <div className="list mb-5 mt-3">
-              <NavLink
-                exact
-                to="/"
-                className="listItem mx-3"
-                activeClassName="active"
-              >
-                Home
-              </NavLink>
-              <NavLink
-                to="/about"
-                className="listItem mx-3"
-                activeClassName="active"
-              >
-                About
-              </NavLink>
-              <NavLink
-                to="/couture"
-                className="listItem mx-3"
-                activeClassName="active"
-              >
-                Couture Process
-              </NavLink>
-              <NavLink
-                to="/store"
-                className="listItem mx-3"
-                activeClassName="active"
-              >
-                Store
-              </NavLink>
-              <NavLink
-                to="/contact"
-                className="listItem mx-3"
-                activeClassName="activeItem"
-              >
-                Contact
-              </NavLink>
-            </div>
-          </nav>
+          <div className="footer-text">
+            <h3 className="pt-3 text-uppercase footer-tiny-text">
+              Walk in store
+            </h3>
+            <p className="footer-normal-text pt-2 mb-5">
+              Airvy showroom, Lennox mall, admiralty way, lekki phase 1, Lagos
+              State, Nigeria.
+            </p>
+          </div>
+          </div>
 
-          <BackToTopButton/>
+          <BackToTopButton />
 
-          <div className="borderBottom container mb-5"></div>
+          <div className="borderBottom"></div>
 
-          <div class="d-flex justify-content-between container">
+          <div class="copyright-container mt-4">
             <div className="copyright">
               <p>&copy; 2023 Airvy. All rights reserved.</p>
             </div>
 
             <nav>
               <div className="icons d-flex">
-                <InstagramIcon style={{ color: "#98A2B3" }} className="mx-3"/>
-                <FacebookIcon style={{ color: "#98A2B3" }}/>
-                
+                <InstagramIcon style={{ color: "#252525" }} className="mr-3" />
+                <FacebookIcon style={{ color: "#252525" }} className="mx-3" />
+                <WhatsAppIcon style={{ color: "#252525" }} />
               </div>
             </nav>
           </div>
         </div>
       </footer>
 
-
-
-      <footer className="mobile-view">
+      {/* <footer className="mobile-view">
         <div className="container black-bg">
         <div className="text-left foot d-flex  flex-column footer">
           <div className="logo container">
-            <img src={Translogo} alt="aivys-logo" />
+            <img src={Logo} alt="aivys-logo" />
           </div>
 
           <div className="text-left container">
@@ -113,7 +80,7 @@ const Footer = () => {
           </div>
         </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 };

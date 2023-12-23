@@ -1,73 +1,75 @@
-.tabs .tab{
-    cursor: pointer;
+.tabs .tab {
+  cursor: pointer;
 }
-.tabs .tab.active{
-    border-bottom: 2px solid black;
+.tabs .tab.active {
+  border-bottom: 2px solid black;
 }
-.content{
-    display: none;
+.content {
+  display: none;
 }
-.show-content{
-    display: block;
+.show-content {
+  display: block;
 }
-.designer-heading{
-    color: #0D0B07;
-text-align: center;
-font-family: Isidora Sans;
-font-size: 40px;
-font-style: normal;
-font-weight: 265;
-line-height: 48px;
-text-transform: capitalize;
+.designer-heading {
+  color: #0d0b07;
+  text-align: center;
+  font-family: Isidora Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 265;
+  line-height: 48px;
+  text-transform: capitalize;
 }
-.designer-price{
-    color: #0D0B07;
-text-align: center;
-font-family: Isidora Sans;
-font-size: 40px;
-font-style: normal;
-font-weight: 400;
-line-height: 48px;
-text-transform: capitalize;
+.designer-price {
+  color: #0d0b07;
+  text-align: center;
+  font-family: Isidora Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  text-transform: capitalize;
 }
-.designer-text{
-    color:  #060503;
-text-align: justify;
-font-family: Isidora Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
+.designer-text {
+  color: #060503;
+  text-align: justify;
+  font-family: Isidora Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
-@media (max-width: 815px) {
-    .BA-heading{
-        color: var(--foundation-yellow-darker, #524A44);
-text-align: center;
-
-/* Overline/2 */
-font-family: Isidora Sans;
-font-size: 10px;
-font-style: normal;
-font-weight: 300;
-line-height: 16px; /* 160% */
-letter-spacing: 4.8px;
-text-transform: uppercase;
-    }
-    .BA-big-heading{
-font-size: 27px;
-line-height: 32px;
-    }
-    .BA-text, .BA-text li{       
-font-size: 16px;
-line-height: 24px; 
-    }
-    .BA-big-heading2{
+@media (max-width: 760px) {
+  .BA-heading {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
+  .BA-big-heading {
+    font-size: 27px;
+    line-height: 32px;
+  }
+  .BA-text,
+  .BA-text li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .BA-big-heading2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 32px;
+    text-transform: capitalize;
+  }
+  .designer-heading{
+    font-family: Isidora Sans;
 font-size: 24px;
 font-style: normal;
-font-weight: 200;
+font-weight: 265;
 line-height: 32px; /* 133.333% */
 text-transform: capitalize;
-    }
-    
+  }
 }
-

@@ -66,7 +66,7 @@ const Contact = () => {
                 </div>
 
                 <div className="form-group col-md-6">
-                  <label className="mb-1">Email</label>
+                  <label className="mb-1 ">Email</label>
                   <input required
                     type="email"
                     className="form-control"
@@ -74,8 +74,10 @@ const Contact = () => {
                   />
                 </div>
 
+                <div className=" form-group col-md-12">
                 <label className="mb-1">Phone number</label>
                 <PhoneInput value={value} country={"us"} onChange={setValue} />
+                </div>
 
                 <div className="form-group col-md-12 mt-4">
                   <label className="mb-1">How can we help?</label>

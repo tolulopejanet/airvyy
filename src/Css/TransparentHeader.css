@@ -16,7 +16,8 @@ Navbar {
   border-bottom: 0.1px solid #000;
 }
 .listItem2 {
-  color: #fff !important;
+  color: rgba(6, 5, 3,0.9);
+  font-weight: bold;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -58,7 +59,7 @@ Navbar {
     font-size: 1rem;
   }
 }
-@media (max-width: 815px) {
+@media (max-width: 820px) {
   .nav-logo-container {
     max-width: 140px;
   }
@@ -66,7 +67,7 @@ Navbar {
     display: none;
   }
   .navbar-menu-container {
-    display: flex;
+    display: flex !important;
   }
 }
 

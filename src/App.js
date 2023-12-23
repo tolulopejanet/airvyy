@@ -9,6 +9,7 @@ import Error from './Component/Error';
 import Footer from "./Component/Footer";
 import BookAppointment from "./Component/BookAppointment";
 import ScrollToTop from "./Component/ScrollToTop";
+import './index.css';
 // import TransparentHeader from "./Component/TransparentHeader";
 
 
@@ -24,9 +25,7 @@ const App=()=>{
           <Route path="/contact" Component={Contact}/>
           <Route path="*" Component={Error}/>
           <Route path="/bookappointment" Component={BookAppointment}></Route>
-      </Routes>
-
-      
+      </Routes> 
       <Footer/>
     </>
   )

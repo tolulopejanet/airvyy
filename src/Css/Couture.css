@@ -11,9 +11,9 @@
 }
 .couture-text {
   font-family: Isidora Sans;
-  font-size: 64px;
+  font-size: 68px;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 265;
   line-height: 72px;
   letter-spacing: -1.28px;
   text-transform: capitalize;
@@ -24,98 +24,319 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 24px;
   letter-spacing: 0.4px;
 }
-.layer {
-  background-image: url("../Images/image1.png");
-  width: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.blur-box {
-  width: 596px;
-  padding: 56px 48px;
-  border-radius: 24px;
-  background: lightgray 0% 0% / 100px 100px repeat, rgba(87, 87, 87, 0.16);
-  background-blend-mode: color-dodge, normal;
+.couture-process-container {
+  display: flex;
+  padding: 120px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  align-self: stretch;
+  background: #eefdd5;
   backdrop-filter: blur(20px);
 }
-.blur-box .contentt {
-  color: #fffefb;
-  font-family: Isidora Sans;
-  font-size: 1rem;
-  font-style: normal;
-  line-height: 28px;
-  letter-spacing: 0.4px;
+.couture-process-container2 {
+  display: flex;
+  padding: 120px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  align-self: stretch;
+  /* background: #eefdd5; */
+  backdrop-filter: blur(20px);
 }
-.blur-box h1 {
-  color: #fdf0d5;
+.couture-img {
+  width: 500px !important;
+  height: 500px !important;
+  border-radius: 40px;
+  object-fit: cover !important;
+}
+.numbering {
+  font-family: Isidora Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  letter-spacing: 7.68px;
+  text-transform: uppercase;
+  color: #252525;
+  margin-bottom: 10px;
+}
+.blur-box {
+  padding: 20px 30px;
+  /* background: #fffefb; */
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+}
+.couture-process {
   font-family: Isidora Sans;
   font-size: 40px;
   font-style: normal;
-  font-weight: 200;
-  line-height: 48px;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
   text-transform: capitalize;
 }
-.layer button {
+.blur-box .contentt {
+  color: #000;
+  font-family: Isidora Sans;
+  font-size: 1.4rem;
+  font-style: normal;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.couture-footer .tiny-text {
+  color: #524a44;
   text-align: center;
   font-family: Isidora Sans;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  letter-spacing: 7.68px;
+  text-transform: uppercase;
+}
+.couture-footer .big-text {
+  color: #060503;
+  text-align: center;
+  font-family: Isidora Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 265;
+  line-height: 48px; /* 120% */
   text-transform: capitalize;
-  color: #060503 !important;
 }
-.mobile-view {
-  display: none;
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  align-self: stretch;
+  margin-bottom: 200px;
+  margin-top: 10px;
 }
-.desktopView {
-  display: block;
+.button {
+  border-radius: 120px;
+  padding: 24px 32px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 1px 2px 0px rgba(16, 15, 20, 0.05);
+  color: #fffefb;
+  background-color: #070603;
 }
-@media (max-width: 815px) {
+.button2 {
+  border-radius: 120px;
+  padding: 23px 31px;
+  border: 1px solid #070603;
+  outline: none;
+  box-shadow: 0px 1px 2px 0px rgba(16, 15, 20, 0.05);
+  background-color: #fffefb;
+}
+.button p,
+.button2 p {
+  font-family: Isidora Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+}
+.button p {
+  color: #e7e7e6;
+}
+.button2 p {
+  color: #070603;
+}
+
+@media (max-width: 480px) {
+  .couture-process-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .couture-process-container2 {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
   .couture-heading {
-    text-align: center;
+    font-size: 10px;
+    font-style: normal;
     font-weight: 300;
     line-height: 16px;
     letter-spacing: 4.8px;
   }
   .couture-text {
-    font-size: 30px;
+    font-size: 24px;
+    font-style: normal;
     font-weight: 265;
     line-height: 32px;
   }
   .couture-tiny-text {
     font-size: 16px;
-    line-height: 20px;
-    margin-top: -10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
   }
-  .mobile-view {
-    display: block;
+  .couture-process-container,
+  .couture-process-container2 {
+    padding: 50px 8px;
+    gap: 20px;
   }
-  .mobile-view .contentt {
-    font-size: 16px;
-    line-height: 20px;
+  .couture-img {
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: contain;
   }
-  .mobile-view h1 {
+  .couture-process {
     font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
   }
-  .desktopView{
-    display: none;
+  .blur-box .contentt {
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 24px !important;
   }
-  .footer-foot .couture-heading{
-font-size: 10px;
-font-style: normal;
-font-weight: 300;
-line-height: 16px; /* 160% */
-letter-spacing: 4.8px;
-  } 
-  .footer-foot .home-text{
-  
-     font-size: 24px;
-     font-style: normal;
-     font-weight: 200;
-     line-height: 32px;
-     
+  .couture-footer .tiny-text {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 4.8px;
+  }
+  .couture-footer .big-text {
+    font-size: 22px !important;
+    line-height: 32px !important;
+  }
+  .buttons{
+    gap: 8px !important;
+  }
+  .button,
+  .button2 {
+    padding: 8px 16px !important;
+    
+  }
+
+  .button p,
+  .button2 p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .couture-text {
+    font-size: 58px;
+    line-height: 62px;
+  }
+  .couture-process-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .couture-process-container2 {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .blur-box {
+    background: none;
+    padding: 10px 20px;
+  }
+  .blur-box .contentt {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .couture-footer .tiny-text {
+    font-size: 14px;
+  }
+  .couture-footer .big-text {
+    font-size: 34px;
+  }
+  .button,
+  .button2 {
+    padding: 20px 28px;
+  }
+  .button p,
+  .button2 p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 766px) and (max-width: 820px) {
+  .couture-process-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .couture-process-container2 {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .blur-box .contentt {
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  .couture-footer .tiny-text {
+    font-size: 14px;
+  }
+  .couture-footer .big-text {
+    font-size: 34px;
+  }
+  .button,
+  .button2 {
+    padding: 20px 28px;
+  }
+  .button2 {
+    padding: 19px 27px;
+  }
+  .button p,
+  .button2 p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 820px) and (max-width: 1024px) {
+  .couture-heading {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .couture-text {
+    font-size: 64px;
+  }
+  .couture-tiny-text {
+    font-size: 17px;
+  }
+  .couture-process-container,
+  .couture-process-container2 {
+    padding: 100px 38px;
+    gap: 50px;
+  }
+  .couture-img {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .couture-process {
+    font-size: 35px !important;
+  }
+  .blur-box .contentt {
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  .couture-footer .tiny-text {
+    font-size: 14px;
+  }
+  .couture-footer .big-text {
+    font-size: 34px;
+  }
+  .button,
+  .button2 {
+    padding: 20px 28px;
+  }
+  .button2 {
+    padding: 19px 27px;
+  }
+  .button p,
+  .button2 p {
+    font-size: 17px;
   }
 }

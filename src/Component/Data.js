@@ -1,15 +1,15 @@
-import image1 from '../Images/home4.png';
-import image2 from '../Images/home5.png';
-import image3 from '../Images/home6.png';
-import image4 from '../Images/home6.png';
-import image5 from '../Images/home7.png';
-import image6 from '../Images/home8.png';
+import image1 from '../Images/evi1.jpg';
+import image2 from '../Images/evi2.jpg';
+import image3 from '../Images/evi3.jpg';
+import image4 from '../Images/evi4.jpg';
+import image5 from '../Images/evi5.jpg';
+// import image6 from '../Images/evi6.jpg';
 const Data=[
     {
         image:image1,
     },
     {
-        image:image2,
+        image:image2, 
     },
     {
         image:image3,
@@ -19,10 +19,8 @@ const Data=[
     },
     {
         image:image5,
-    },
-    {
-        image:image6,
-    },
+    },  
+ 
     
 ]
 export default Data;

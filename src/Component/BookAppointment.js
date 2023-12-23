@@ -13,7 +13,7 @@ const BookAppointment = () => {
   
   return (
     <>
-      <Header />
+      <Header/>
 
       <div className="subNav">
         <div className="container text-center mt-5">
@@ -29,16 +29,22 @@ const BookAppointment = () => {
             and memorable.
           </p>
         </div>
- 
         <div className="d-flex justify-content-around tabs">
-          <div className="tab active" onClick={()=>updateToggle(1)}>
-            Bridal Consultant
+          <div className={`${toggle ===1 ? `tab active-tab list` : `tab list`}`} onClick={() => updateToggle(1)}>
+          Bridal Consultant
           </div>
-          <div className="tab" onClick={()=>updateToggle(2)}>
-            Our Designer
+          <div className={`${toggle ===2 ? `tab active-tab list` : `tab list`}`} onClick={() => updateToggle(2)}>
+          Our Designer
           </div>
+          
         </div>
+        
       </div>
+
+
+     
+
+
  
       <div className="container text-center mt-5 ">
       <div className={toggle === 1 ? "show-content" : "content"}>
@@ -52,9 +58,11 @@ const BookAppointment = () => {
           any obstacles that may come between you and your dream dress, all for
           free.
         </p>
+        <a href="https://calendly.com/airvyatelier/free-consultation" target="_blank">
         <button className="btn btn-light mt-3 border-dark consult-btn rounded-pill">
           Book a Free Consultation
         </button>
+        </a>
       </div>
     </div>
 
@@ -91,9 +99,11 @@ const BookAppointment = () => {
       </div>
       </div>
       <div className="container d-flex justify-content-center">
+      <a href=" https://calendly.com/eviairvy/consult-with-evi" target="_blank">
       <button className="btn btn-light mt-3 border-dark consult-btn rounded-pill">
-          Book a Free Consultation
+      Consultation with Evi
         </button>
+      </a>
       </div>
       </div>
       
