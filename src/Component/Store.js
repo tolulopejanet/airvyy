@@ -111,7 +111,7 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image2"
+                data-bs-target="#image3"
               />
             </div>
             <div className="col">
@@ -120,7 +120,7 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image3"
+                data-bs-target="#image4"
               />
             </div>
 
@@ -171,6 +171,22 @@ const Store = () => {
                 </div>
               </div>
             </div>
+
+            <div className="modal fade" id="image4" tabIndex="-1" aria-hidden>
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-body">
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                    <img src={Accessory4} alt="" className="d-block w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -217,7 +233,7 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image"
+                data-bs-target="#image5"
               />
             </div>
             <div className="col">
@@ -226,7 +242,7 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image2"
+                data-bs-target="#image6"
               />
             </div>
             <div className="col">
@@ -235,7 +251,7 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image2"
+                data-bs-target="#image7"
               />
             </div>
             <div className="col">
@@ -244,11 +260,11 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image3"
+                data-bs-target="#image8"
               />
             </div>
 
-            <div className="modal fade" id="image" tabIndex="-1" aria-hidden>
+            <div className="modal fade" id="image5" tabIndex="-1" aria-hidden>
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="modal-body">
@@ -258,13 +274,13 @@ const Store = () => {
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     ></button>
-                    <img src={image11} alt="" className="d-block w-100" />
+                    <img src={Accessory5} alt="" className="d-block w-100" />
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="modal fade" id="image2" tabIndex="-1" aria-hidden>
+            <div className="modal fade" id="image6" tabIndex="-1" aria-hidden>
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="modal-body">
@@ -274,13 +290,13 @@ const Store = () => {
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     ></button>
-                    <img src={image22} alt="" className="d-block w-100" />
+                    <img src={Accessory6} alt="" className="d-block w-100" />
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="modal fade" id="image3" tabIndex="-1" aria-hidden>
+            <div className="modal fade" id="image7" tabIndex="-1" aria-hidden>
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="modal-body">
@@ -290,7 +306,23 @@ const Store = () => {
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     ></button>
-                    <img src={image52} alt="" className="d-block w-100" />
+                    <img src={Accessory7} alt="" className="d-block w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="modal fade" id="image8" tabIndex="-1" aria-hidden>
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-body">
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                    <img src={Accessory8} alt="" className="d-block w-100" />
                   </div>
                 </div>
               </div>
@@ -342,7 +374,7 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image"
+                data-bs-target="#image9"
               />
             </div>
             <div className="col">
@@ -351,7 +383,7 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image2"
+                data-bs-target="#image10"
               />
             </div>
             <div className="col">
@@ -360,7 +392,7 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image2"
+                data-bs-target="#image11"
               />
             </div>
             <div className="col">
@@ -369,11 +401,11 @@ const Store = () => {
                 alt=""
                 data-bs-toggle="modal"
                 className="img cursor-pointer"
-                data-bs-target="#image3"
+                data-bs-target="#image12"
               />
             </div>
 
-            <div className="modal fade" id="image" tabIndex="-1" aria-hidden>
+            <div className="modal fade" id="image9" tabIndex="-1" aria-hidden>
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="modal-body">
@@ -383,13 +415,13 @@ const Store = () => {
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     ></button>
-                    <img src={image11} alt="" className="d-block w-100" />
+                    <img src={Accessory9} alt="" className="d-block w-100" />
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="modal fade" id="image2" tabIndex="-1" aria-hidden>
+            <div className="modal fade" id="image10" tabIndex="-1" aria-hidden>
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="modal-body">
@@ -399,13 +431,13 @@ const Store = () => {
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     ></button>
-                    <img src={image22} alt="" className="d-block w-100" />
+                    <img src={Accessory10} alt="" className="d-block w-100" />
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="modal fade" id="image3" tabIndex="-1" aria-hidden>
+            <div className="modal fade" id="image11" tabIndex="-1" aria-hidden>
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="modal-body">
@@ -415,7 +447,23 @@ const Store = () => {
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     ></button>
-                    <img src={image52} alt="" className="d-block w-100" />
+                    <img src={Accessory11} alt="" className="d-block w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="modal fade" id="image12" tabIndex="-1" aria-hidden>
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-body">
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                    <img src={Accessory12} alt="" className="d-block w-100" />
                   </div>
                 </div>
               </div>
@@ -424,204 +472,7 @@ const Store = () => {
         </div>
       </div>
 
-      {/* <div className="gallery2">
-        <div className={toggle === 2 ? "col" : "content"}>
-        
-          <div className="roww">
-            <div className="column2">
-            <img src={image53} alt="" className="" />
-            </div>
-            <div className="column2">
-            <img src={image43} alt="" className="" />   
-            </div> 
-            <div className="column2">
-            <img src={image33} alt="" className="" />   
-            </div>     
-          </div>
-
-          <div className="roww mt-1">
-            <div className="column2">
-            <img src={image31} alt="" className="" />
-            </div>
-            <div className="column2">
-              <img src={image11} alt="" className="" />
-            </div>
-            <div className="column2">
-              <img src={image21} alt="" className="" />
-            </div>
-            
-          </div>
-        </div>
-      </div>
-
-
-
-      <div className="gallery2">
-        <div className={toggle === 3 ? "col" : "content"}>
-        
-          <div className="roww">
-            <div className="column2">
-              <img src={image43} alt="" className="" />
-            </div>
-            <div className="column2">
-              <img src={image53} alt="" className="" />
-            </div>     
-          </div>
-          <div className="roww">
-            <div className="column2">
-              <img src={image13} alt="" className="" />
-            </div>
-            <div className="column2">
-            <img src={image42} alt="" className="" />
-            
-            </div>
-            <div className="column2">
-              <img src={image33} alt="" className="" />
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="row row-cols-2 row-cols-sm-2 row-cols-md-4 gallery2">
-        <div className={toggle === 2 ? "col" : "content"}>
-          <img
-            src={Accessory1}
-            alt=""
-            data-bs-toggle="modal"
-            className="img cursor-pointer"
-            data-bs-target="#image"
-          />
-        </div>
-        <div className="col">
-          <img
-            src={Accessory2}
-            alt=""
-            data-bs-toggle="modal"
-            className="img cursor-pointer"
-            data-bs-target="#image2"
-          />
-        </div>
-        <div className="col">
-          <img
-            src={Accessory3}
-            alt=""
-            data-bs-toggle="modal"
-            className="img cursor-pointer"
-            data-bs-target="#image2"
-          />
-        </div>
-        <div className="col">
-          <img
-            src={Accessory4}
-            alt=""
-            data-bs-toggle="modal"
-            className="img cursor-pointer"
-            data-bs-target="#image3"
-          />
-        </div>
-
-     
-      </div> */}
-
-      {/* <div className="row row-cols-2 row-cols-sm-2 row-cols-md-4 gallery2">
-        <div className="col">
-          <img
-            src={image31}
-            alt=""
-            data-bs-toggle="modal"
-            className="img cursor-pointer"
-            data-bs-target="#image4"
-          />
-        </div>
-        <div className="col">
-          <img
-            src={image42}
-            alt=""
-            data-bs-toggle="modal"
-            className="img cursor-pointer"
-            data-bs-target="#image5"
-          />
-        </div>
-        <div className="col">
-          <img
-            src={image21}
-            alt=""
-            data-bs-toggle="modal"
-            className="img cursor-pointer"
-            data-bs-target="#image6"
-          />
-        </div>
-        <div className="col">
-          <img
-            src={image33}
-            alt=""
-            data-bs-toggle="modal"
-            className="img cursor-pointer"
-            data-bs-target="#image7"
-          />
-        </div>
-
-        <div className="modal fade" id="image4" tabIndex="-1" aria-hidden>
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-body">
-                <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-                <img src={image31} alt="" className="d-block w-100" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="modal fade" id="image5" tabIndex="-1" aria-hidden>
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-body">
-                <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-                <img src={image42} alt="" className="d-block w-100" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="modal fade" id="image6" tabIndex="-1" aria-hidden>
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-body">
-                <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-                <img src={image21} alt="" className="d-block w-100" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="modal fade" id="image7" tabIndex="-1" aria-hidden>
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-body">
-                <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-                <img src={image33} alt="" className="d-block w-100" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+  
     </>
   );
 };

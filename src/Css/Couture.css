@@ -143,8 +143,9 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  /* line-height: 24px; */
   text-transform: uppercase;
+  margin-bottom: 0!important;
 }
 .button p {
   color: #e7e7e6;
@@ -152,6 +153,7 @@
 .button2 p {
   color: #070603;
 }
+
 
 @media (max-width: 480px) {
   .couture-process-container {
@@ -216,9 +218,11 @@
   .buttons{
     gap: 8px !important;
   }
-  .button,
+  .button {
+    padding: 8px 16px;  
+  }
   .button2 {
-    padding: 8px 16px !important;
+    padding: 7px 15px;
     
   }
 
